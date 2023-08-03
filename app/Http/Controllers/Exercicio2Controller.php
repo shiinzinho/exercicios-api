@@ -6,7 +6,6 @@ use Illuminate\Http\Request;
 
 class Exercicio2Controller extends Controller
 {
-<<<<<<< HEAD
     public function retornarMaior(Request $request)
     {
 
@@ -25,7 +24,3 @@ class Exercicio2Controller extends Controller
         }
     }
 }
-=======
-    //
-}
->>>>>>> f3e9615e8de9b7af328ca7d661a4ba717627d469
