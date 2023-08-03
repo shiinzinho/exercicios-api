@@ -6,7 +6,6 @@ use Illuminate\Http\Request;
 
 class Exercicio8Controller extends Controller
 {
-<<<<<<< HEAD
     public function tabuada(Request $request)
     {
         $numero = $request->numero_tabuada;
@@ -22,7 +21,4 @@ class Exercicio8Controller extends Controller
             "resultado" => $numeros
         ]);
     }
-=======
-    //
->>>>>>> f3e9615e8de9b7af328ca7d661a4ba717627d469
 }
