@@ -6,7 +6,6 @@ use Illuminate\Http\Request;
 
 class Exercicio6Controller extends Controller
 {
-<<<<<<< HEAD
     public function idade(Request $request)
     {
         if ($request->numero <= 12) {
@@ -23,7 +22,4 @@ class Exercicio6Controller extends Controller
             ]);
         }
     }
-=======
-    //
->>>>>>> f3e9615e8de9b7af328ca7d661a4ba717627d469
 }
