@@ -2,20 +2,21 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\Exercicio2FormRequest;
 use Illuminate\Http\Request;
 
 class Exercicio2Controller extends Controller
 {
-    public function retornarMaior(Request $request)
+    public function retornarMaior(Exercicio2FormRequest $request)
     {
 
-        if ($request->primeiroNumero > $request->segundoNumero) {
+        if ($request->n1 > $request->n2) {
             return json_encode([
-                'maior' => $request->primeiroNumero
+                'maior' => $request->n1
             ]);
-        } else if ($request->segundoNumero > $request->primeiroNumero) {
+        } else if ($request->n2 > $request->n1) {
             return json_encode([
-                'maior' => $request->segundoNumero
+                'maior' => $request->n2
             ]);
         } else {
             return json_encode([
