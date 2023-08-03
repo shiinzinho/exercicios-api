@@ -2,13 +2,14 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\Exercicio8FormRequest;
 use Illuminate\Http\Request;
 
 class Exercicio8Controller extends Controller
 {
-    public function tabuada(Request $request)
+    public function tabuada(Exercicio8FormRequest $request)
     {
-        $numero = $request->numero_tabuada;
+        $numero = $request->n1;
 
         $numeros = [];
 
