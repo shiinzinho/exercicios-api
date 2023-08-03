@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class Exercicio4Controller extends Controller
 {
-    public function verficar(Request $request)
+    public function parOuImpar(Request $request)
     {
 
         if ($request->numero % 2 == 0) {
