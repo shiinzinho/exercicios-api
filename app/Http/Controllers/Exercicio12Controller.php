@@ -6,7 +6,6 @@ use Illuminate\Http\Request;
 
 class Exercicio12Controller extends Controller
 {
-<<<<<<< HEAD
     public function decrescente()
     {
 
@@ -21,7 +20,4 @@ class Exercicio12Controller extends Controller
             'valores' => $numeros
         ]);
     }
-=======
-    //
->>>>>>> f3e9615e8de9b7af328ca7d661a4ba717627d469
 }
