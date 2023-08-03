@@ -2,11 +2,12 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\Exercicio3FormRequest;
 use Illuminate\Http\Request;
 
 class Exercicio3Controller extends Controller
 {
-    public function media(Request $request)
+    public function media(Exercicio3FormRequest $request)
     {
 
         $primeiroNumero = $request->n1;
