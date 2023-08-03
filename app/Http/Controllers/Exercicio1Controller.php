@@ -2,11 +2,12 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\Exercicio1FormRequest;
 use Illuminate\Http\Request;
 
 class Exercicio1Controller extends Controller
 {
-    public function multiplicar(Exercício1FormRequest $request)
+    public function multiplicar(Exercicio1FormRequest $request)
     {
         $primeiroNumero = $request->n1;
         $segundoNumero = $request->n2;
